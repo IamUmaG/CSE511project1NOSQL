@@ -1,0 +1,38 @@
+Find Business Based on Location 
+
+input : 
+FindBusinessBasedOnLocation(['Restaurants'], [33.3482589, -111.9088346], 10, 'output_loc.txt', data)
+
+output:
+VinciTorio's Restaurant
+The Seafood Market
+P.croissants
+
+input :
+FindBusinessBasedOnLocation(['Bakeries'], [33.3482589, -111.9088346], 15, 'output_loc.txt', data)
+
+output :
+Nothing Bundt Cakes
+P.croissants
+
+
+input : 
+FindBusinessBasedOnLocation(['Food', 'Specialty Food'], [33.3482589, -111.9088346], 30, 'output_loc.txt', data) 
+
+ouput :
+Nothing Bundt Cakes
+Olive Creations
+The Seafood Market
+P.croissants
+
+input :
+FindBusinessBasedOnLocation(['Gardeners'], [33.3482589, -111.9088346], 20, 'output_loc.txt', data)   
+
+output :
+Turf Direct
+
+input : 
+FindBusinessBasedOnLocation(['Buffets'], [33.3482589, -111.9088346], 10, 'output_loc.txt', data)
+
+output :
+VinciTorio's Restaurant
